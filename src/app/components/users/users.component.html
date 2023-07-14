@@ -1,0 +1,4 @@
+<section class="box">
+    <h2 class="box__name" appNamelength [namelength]="user.name.length">{{user.name}}</h2>
+    <h4 class="box__age" [ngClass]="{ 'age-color': user.age > 30 }">Age:{{user.age}}</h4>
+</section>
